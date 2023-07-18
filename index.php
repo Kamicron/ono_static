@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <div class="red">Coucou</div>
-</body>
-</html>
+<?php include 'commons/header.php' ?>
+  <div class="red">Coucou test</div>
+<?php include 'commons/footer.php' ?>
