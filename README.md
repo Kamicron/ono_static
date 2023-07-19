@@ -2,6 +2,16 @@
 
 afin d'auto build de css
 
-`npm i`
+```
+npm i
+```
 
-`npm run scss`
+```
+npm run scss
+```
+
+sur le pc portable
+
+```
+http://localhost:8888/ono_static/
+```
