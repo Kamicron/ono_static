@@ -324,25 +324,73 @@ template {
 
 /*    Utilitaires   */
 /*   Règles de base   */
-* {
+body {
+  position: relative;
   background-color: #1B1C1E;
   color: #F9FCFB; }
 
+.bodywrapper {
+  max-width: 1200px;
+  margin: auto; }
+
+@media (max-width: 1300px) {
+  .bodywrapper {
+    margin: 24px;
+    width: 100%; } }
+
 /*Layout   */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  padding: 32px;
+  background-color: #2C2D32;
+  width: 100%; }
+
+.discord__wrapper {
+  position: fixed;
+  top: 150px;
+  left: -90px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border: none;
+  transition: transform 0.5s;
+  cursor: pointer;
+  background: transparent;
+  transform: translateX(0);
+  font-family: "cs_regular", serif;
+  background-color: #3E3F46;
+  width: auto;
+  text-transform: uppercase;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 24px 8px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 10px; }
+  .discord__wrapper:hover {
+    transform: translateX(80px); }
+  .discord__wrapper--text {
+    margin: 0;
+    color: #F9FCFB; }
+
 /*Composants   */
 button.btn {
   background-color: #3E3F46;
-  margin: 50px;
-  padding: 10px 20px;
+  padding: 8px 24px;
   border: none;
   height: 50px;
   transform: skewX(-35deg);
-  margin: 20px;
   overflow: hidden;
   cursor: pointer;
   font-family: "cs_regular", serif;
   text-transform: uppercase;
-  transition: background-color 0.3s, box-shadow 0.3s; }
+  transition: background-color 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center; }
   button.btn:hover {
     background-color: #F3A620;
     box-shadow: 2px;

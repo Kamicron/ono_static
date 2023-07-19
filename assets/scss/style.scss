@@ -24,12 +24,14 @@ Soyez attentifs à l'ordre d'import :
 /*    Utilitaires   */
 @import "utils/colors";
 @import "utils/fonts";
+@import "utils/spacing";
 
 /*   Règles de base   */
 @import "base/main";
 
 /*Layout   */
-
+@import "layout/navbar";
+@import "layout/discord";
 
 /*Composants   */
 

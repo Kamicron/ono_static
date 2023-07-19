@@ -1,0 +1,15 @@
+.vertical-text {
+  position: fixed;
+  top: 0;
+  left: 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border: none;
+  transition: transform 0.5s;
+  padding: 10px;
+  cursor: pointer;
+  background: transparent;
+  transform: translateX(0); }
+
+.vertical-text:hover {
+  transform: translateX(20px); }

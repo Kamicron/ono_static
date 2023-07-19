@@ -7,4 +7,6 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<?php include 'components/nav-bar.php' ?>
+<!-- <?php include 'components/nav-bar.php' ?> -->
+<?php include 'components/discord.php' ?>
+<div class="bodywrapper">

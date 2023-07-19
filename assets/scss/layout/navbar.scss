@@ -1,0 +1,9 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  padding: $spacing-xl;
+  background-color: $medium-gray;
+  width: 100%;
+}

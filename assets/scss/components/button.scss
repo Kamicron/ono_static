@@ -1,17 +1,17 @@
 button {
   &.btn {
     background-color: $light-gray;
-    margin: 50px;
-    padding: 10px 20px;
+    padding: $spacing-s $spacing-l;
     border: none;
     height: 50px;
     transform: skewX(-35deg);
-    margin: 20px;
     overflow: hidden;
     cursor: pointer;
     font-family: $font-button;
     text-transform: uppercase;
     transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
 
     &:hover {
       background-color: $secondary-color;
