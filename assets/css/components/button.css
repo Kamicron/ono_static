@@ -1,0 +1,38 @@
+.btn {
+  background-color: #ccc;
+  margin: 50px;
+  padding: 10px 20px;
+  border: none;
+  height: 50px;
+  transform: skewX(-20deg);
+  margin: 20px;
+  overflow: hidden;
+  position: relative; }
+
+.btn span {
+  display: inline-block;
+  background-color: transparent;
+  transform: skewX(20deg);
+  padding: 10px;
+  color: #fff;
+  text-align: right; }
+
+.btn:hover {
+  background-color: #337ab7; }
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Couleur du halo */
+  transform: skewX(-20deg);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; }
+
+.btn:hover::before {
+  opacity: 1; }
